@@ -81,6 +81,7 @@
           <img src="images/STEAM.png" style="background-color: transparent; border: 0;" />
         </section>
         <section>
+          <img class="stretch" src="images/ng-kids.png" alt="">
         </section>
       </section>
       <section>
@@ -92,7 +93,9 @@
         <h3>Angular Quickstart Plunk</h3>
       </section>
       <section>
-        
+        <img src="images/GwenAndDaddy.png" alt="" class="stretch">
+      </section>
+      <section>
             <p>
             <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg" alt="" style="width: 250px" align="left">
               “[Science] is more than a school subject, or the periodic table, or the properties of waves. 
@@ -159,6 +162,13 @@ world, and then have the capacity to change that world..."
           // { src: 'plugin/reveal-monaco/index.js', async: true },
           { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
         ]
+      });
+
+      Reveal.configure({
+        keyboard: {
+          131: 'next',
+          130: 'next'
+        }
       });
   </script>
 </body>
